@@ -1,0 +1,61 @@
+:root {
+  --bg-black: #000;
+  --bg-white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--bg-black);
+  font-size: 1.6rem;
+}
+
+h1 {
+  color: var(--bg-white);
+}
+
+.content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  height: 55rem;
+}
+
+.img-logo {
+  width: 60%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  color: var(--bg-white); 
+  text-decoration: none;
+}
+
+.content-links {
+  width: 20rem;
+  text-align: center;
+  color: #868080;
+
+}
+
+.content-links span {
+  display: block;
+  font-size: 2rem;
+}
+
+.icon {
+  width: 4rem;
+}
+
+.icon-email {
+  width: 4.5rem;
+}
+
+
+
