@@ -1,6 +1,7 @@
 :root {
   --bg-black: #000;
   --bg-white: #fff;
+  --font: 'Roboto Flex', sans-serif;
 }
 
 html {
@@ -47,6 +48,7 @@ h1 {
 .content-links span {
   display: block;
   font-size: 2rem;
+  font-family: var(--font);
 }
 
 .icon {
